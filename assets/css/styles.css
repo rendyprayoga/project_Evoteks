@@ -858,11 +858,10 @@ span.arrow:before {
 .portfolio__img {
   border-radius: 1rem;
   margin-bottom: 2rem;
-  height: 18.5rem;
-  width: 25rem;
+  height: 20.8rem;
+  width: 29rem;
   background-color: hsla(195, 83%, 58%, 0.2);
 }
-
 .portfolio__data {
   padding: 0 1rem 0 0.5rem;
 }
