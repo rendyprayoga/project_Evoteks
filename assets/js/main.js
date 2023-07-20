@@ -21,24 +21,22 @@ let swiperportofolio = new Swiper(".popular__container", {
   },
 });
 $("article.multimedia").click(function (event) {
-  console.log(event);
   event.preventDefault();
-  var content = $(".modal-body");
+  let content = $(".modal-body");
   content.empty();
-  var title = $(this).attr("title");
-  var description = $(this).attr("description");
+  let title = $(this).attr("title");
+  let description = $(this).attr("description");
   $(".modal-title").html(title);
-  console.log($(this).html());
-  var src = $(this).attr("src");
+  let src = $(this).attr("src");
 
   $(
     ".modal-body"
-  ).append(`<video width="320" height="240" autoplay="false" controls>
+  ).append(`<video width="100%" height="240" autoplay="false" controls>
       <source src="${src}" type="video/mp4">      
       Your browser does not support the video tag.
       </video>`);
+  $(".modal-body").append(`<h5>${title}</h5>`);
 
-  console.log(description);
   $(".modal-body").append(`<p>${description}</p>`);
 });
 

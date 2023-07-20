@@ -2167,3 +2167,10 @@ p.contact__card-description {
     zoom: 2;
   }
 }
+
+.swiper-slide {
+  width: auto !important;
+}
+.modal-header {
+  border-bottom: none !important;
+}
