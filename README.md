@@ -1,8 +1,8 @@
 # UAS PEMROGRAMAN WEB
+# Nur Hikmah Juliyanti
+# 121140137
 
 ## Deskripsi
-
-Deskripsi singkat tentang proyek Anda dan apa yang membuatnya menarik.
 
 ## Fitur Utama
 
